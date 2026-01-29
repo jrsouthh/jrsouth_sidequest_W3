@@ -114,7 +114,7 @@ function drawWin() {
 
 function winMousePressed() {
   wasOnWinScreen = false;
-  currentScreen = "start";
+  currentScreen = "scene1";
 }
 
 function winKeyPressed() {

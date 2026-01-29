@@ -31,7 +31,7 @@ function drawLose() {
 // Mouse input for lose screen
 // ------------------------------
 function loseMousePressed() {
-  currentScreen = "start";
+  currentScreen = "scene1";
 }
 
 // ------------------------------
@@ -39,6 +39,6 @@ function loseMousePressed() {
 // ------------------------------
 function loseKeyPressed() {
   if (key === "r" || key === "R") {
-    currentScreen = "start";
+    currentScreen = "scene1";
   }
 }
