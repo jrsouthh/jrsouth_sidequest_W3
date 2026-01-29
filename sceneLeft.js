@@ -13,9 +13,11 @@ function drawSceneLeft() {
 
   textSize(18);
   text(
-    "You shrink down to SPRINKLE size.\nThe world is a mountain of ice cream!",
+    "The STRAWBERRY magic kicks in!\n" +
+      "Your body shrinks smaller… smaller…\n" +
+      "You’re now sprinkle-sized!",
     width / 2,
-    250,
+    220,
   );
 
   const whipBtn = {

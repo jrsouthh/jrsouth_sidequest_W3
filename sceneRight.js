@@ -13,7 +13,8 @@ function drawSceneRight() {
 
   textSize(18);
   text(
-    "You gain SUPER SPEED.\nEverything blurs like a whipped cream tornado!",
+    "The CHOCOLATE magic surges through you!\n" +
+      "Your legs blur — you have SUPER SPEED!",
     width / 2,
     220,
   );
