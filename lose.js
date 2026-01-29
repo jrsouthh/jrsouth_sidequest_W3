@@ -40,6 +40,6 @@ function loseMousePressed() {
 // R is commonly used for “restart” in games
 function loseKeyPressed() {
   if (key === "r" || key === "R") {
-    currentScreen = "start";
+    currentScreen = "scene1";
   }
 }
