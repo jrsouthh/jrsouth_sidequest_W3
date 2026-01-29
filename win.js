@@ -43,6 +43,6 @@ function winMousePressed() {
 // R is commonly used for “restart” in games
 function winKeyPressed() {
   if (key === "r" || key === "R") {
-    currentScreen = "start";
+    currentScreen = "scene1";
   }
 }
