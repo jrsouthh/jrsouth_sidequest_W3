@@ -120,6 +120,6 @@ function winMousePressed() {
 function winKeyPressed() {
   if (key === "r" || key === "R") {
     wasOnWinScreen = false;
-    currentScreen = "start";
+    currentScreen = "scene1";
   }
 }

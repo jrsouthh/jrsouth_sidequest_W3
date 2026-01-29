@@ -7,14 +7,16 @@
 // ------------------------------
 // Main draw function for lose screen
 // ------------------------------
-// drawLose() is called from main.js
-// only when currentScreen === "lose"
 function drawLose() {
   // Red-tinted background to communicate failure
   background(255, 210, 210);
 
   fill(0);
   textAlign(CENTER, CENTER);
+
+  // 👎 Emoji (placed near top)
+  textSize(120);
+  text("👎", width / 2, 180);
 
   // Main message
   textSize(40);
@@ -28,8 +30,6 @@ function drawLose() {
 // ------------------------------
 // Mouse input for lose screen
 // ------------------------------
-// Any mouse click returns the player to the start screen
-// (no buttons needed for this simple end state)
 function loseMousePressed() {
   currentScreen = "start";
 }
@@ -37,9 +37,8 @@ function loseMousePressed() {
 // ------------------------------
 // Keyboard input for lose screen
 // ------------------------------
-// R is commonly used for “restart” in games
 function loseKeyPressed() {
   if (key === "r" || key === "R") {
-    currentScreen = "scene1";
+    currentScreen = "start";
   }
 }
