@@ -15,21 +15,20 @@ function drawSceneLeft() {
   text(
     "You shrink down to SPRINKLE size.\nThe world is a mountain of ice cream!",
     width / 2,
-    220,
+    250,
   );
 
   const whipBtn = {
     x: width / 2,
     y: 450,
-    w: 360,
+    w: 520,
     h: 80,
     label: "Ride the whipped cream (WIN)",
   };
-
   const syrupBtn = {
     x: width / 2,
     y: 560,
-    w: 360,
+    w: 520,
     h: 80,
     label: "Jump into syrup (LOSE)",
   };
