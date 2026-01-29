@@ -102,4 +102,9 @@ function drawInstrButton({ x, y, w, h, label }) {
   textSize(26);
   textAlign(CENTER, CENTER);
   text(label, x, y);
+
+  const lines =
+    "Choose your path through the ice cream shop.\n" +
+    "Pick Strawberry or Chocolate, then make one more choice.\n" +
+    "One choice leads to WIN, one leads to LOSE!";
 }
