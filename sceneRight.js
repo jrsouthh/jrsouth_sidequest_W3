@@ -3,7 +3,8 @@
 // Choices: run to the freezer (win) OR stay eating (lose)
 
 function drawSceneRight() {
-  background(230, 245, 255); // cool blue-ish
+  background(210, 230, 255); // cooler, energetic
+  // cool blue-ish
 
   fill(40, 60, 70);
   textAlign(CENTER, CENTER);
