@@ -2,6 +2,8 @@
 
 GBDA302 Week 3 Sidequest - Multiple Files
 
+Jenny South
+
 ---
 
 ## Description
