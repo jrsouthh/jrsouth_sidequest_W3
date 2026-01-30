@@ -3,7 +3,8 @@
 // Choices: ride whipped cream (win) OR jump in syrup (lose)
 
 function drawSceneLeft() {
-  background(255, 245, 230); // warm vanilla-ish
+  background(255, 220, 230); // pinker
+// warm vanilla-ish
 
   fill(40, 60, 70);
   textAlign(CENTER, CENTER);
