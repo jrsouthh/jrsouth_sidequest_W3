@@ -25,7 +25,7 @@ function drawSceneRight() {
     y: 450,
     w: 360,
     h: 80,
-    label: "Run to the freezer (WIN)",
+    label: "Run to the freezer",
   };
 
   const eatBtn = {
@@ -33,7 +33,7 @@ function drawSceneRight() {
     y: 560,
     w: 360,
     h: 80,
-    label: "Stay eating forever (LOSE)",
+    label: "Stay eating forever",
   };
 
   drawButton(freezerBtn);
